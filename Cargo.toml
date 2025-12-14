@@ -1,0 +1,29 @@
+[package]
+name = "lacquer"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.75"
+authors = ["Molten Labs <hello@moltenlabs.dev>"]
+license = "MIT OR Apache-2.0"
+description = "Style definitions for gorgeous terminal layouts 💅"
+repository = "https://github.com/moltenlabs/lacquer"
+homepage = "https://molten.dev"
+documentation = "https://docs.rs/lacquer"
+readme = "README.md"
+keywords = ["terminal", "tui", "styling", "layout", "cli"]
+categories = ["command-line-interface", "gui"]
+include = ["src/**/*", "Cargo.toml", "LICENSE-*", "README.md", "CHANGELOG.md"]
+
+[badges]
+maintenance = { status = "experimental" }
+
+[dependencies]
+molten_brand = { path = "../molten_brand", optional = true }
+sigil = { path = "../sigil" }
+unicode-width = "0.1"
+
+[features]
+default = []
+brand = ["molten_brand"]
+
+[dev-dependencies]
