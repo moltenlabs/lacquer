@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/moltenlabs/lacquer/main/.github/assets/banner.png" alt="Lacquer" width="100%" />
-</p>
-
 <h1 align="center">💅 Lacquer</h1>
 
 <p align="center">
