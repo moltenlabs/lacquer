@@ -18,8 +18,8 @@ include = ["src/**/*", "Cargo.toml", "LICENSE-*", "README.md", "CHANGELOG.md"]
 maintenance = { status = "experimental" }
 
 [dependencies]
-molten_brand = { path = "../molten_brand", optional = true }
-sigil = { path = "../sigil" }
+molten_brand = { version = "0.1", optional = true }
+molten_sigil = "0.1"
 unicode-width = "0.1"
 
 [features]

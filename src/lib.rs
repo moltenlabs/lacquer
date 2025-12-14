@@ -40,7 +40,7 @@ pub use position::Position;
 pub use style::Style;
 
 // Re-export sigil's Color for convenience
-pub use sigil::Color;
+pub use molten_sigil::Color;
 
 /// Prelude module for convenient imports.
 pub mod prelude {

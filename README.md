@@ -268,12 +268,10 @@ Lacquer is part of the **Molten Labs** open source ecosystem:
 
 | Crate | Description | Status |
 |-------|-------------|--------|
-| **[molten-brand](https://github.com/moltenlabs/molten-brand)** | Design tokens & colors | ✅ Released |
-| **[sigil](https://github.com/moltenlabs/sigil)** | ANSI escape sequences | ✅ Released |
-| **[lacquer](https://github.com/moltenlabs/lacquer)** | Terminal styling (you are here) | ✅ Released |
-| **[cauldron](https://github.com/moltenlabs/cauldron)** | TUI framework (like bubbletea) | 📋 Planned |
-| **[rune](https://github.com/moltenlabs/rune)** | Shell script tools (like gum) | 📋 Planned |
-| **[ember](https://github.com/moltenlabs/ember)** | Markdown renderer (like glow) | 📋 Planned |
+| **[molten_brand](https://crates.io/crates/molten_brand)** | Design tokens & colors | ✅ Published |
+| **[molten_sigil](https://crates.io/crates/molten_sigil)** | ANSI escape sequences | ✅ Published |
+| **[lacquer](https://crates.io/crates/lacquer)** | Terminal styling (you are here) | ✅ Published |
+| **cauldron** | TUI framework (like bubbletea) | 📋 Planned |
 
 ---
 
