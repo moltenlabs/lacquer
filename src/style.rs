@@ -2,7 +2,7 @@
 
 use crate::border::{Border, BorderColors};
 use crate::position::Position;
-use molten_sigil::Color;
+use glyphs::Color;
 use unicode_width::UnicodeWidthStr;
 
 /// A style definition for rendering terminal content.
@@ -450,7 +450,7 @@ impl Style {
     }
 
     fn render_inline(&self, content: &str) -> String {
-        let mut styled = molten_sigil::style(content);
+        let mut styled = glyphs::style(content);
 
         if let Some(fg) = &self.foreground {
             styled = styled.fg(*fg);
@@ -500,7 +500,7 @@ impl Style {
 
         // Apply text styling
         if content.is_some() {
-            let mut styled = molten_sigil::style(text);
+            let mut styled = glyphs::style(text);
 
             if let Some(fg) = &self.foreground {
                 styled = styled.fg(*fg);

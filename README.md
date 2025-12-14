@@ -269,7 +269,7 @@ Lacquer is part of the **Molten Labs** open source ecosystem:
 | Crate | Description | Status |
 |-------|-------------|--------|
 | **[molten_brand](https://crates.io/crates/molten_brand)** | Design tokens & colors | ✅ Published |
-| **[molten_sigil](https://crates.io/crates/molten_sigil)** | ANSI escape sequences | ✅ Published |
+| **[glyphs](https://crates.io/crates/glyphs)** | ANSI escape sequences | ✅ Published |
 | **[lacquer](https://crates.io/crates/lacquer)** | Terminal styling (you are here) | ✅ Published |
 | **cauldron** | TUI framework (like bubbletea) | 📋 Planned |
 

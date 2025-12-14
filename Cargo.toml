@@ -1,6 +1,6 @@
 [package]
 name = "lacquer"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 rust-version = "1.75"
 authors = ["Molten Labs <hello@moltenlabs.dev>"]
@@ -19,7 +19,7 @@ maintenance = { status = "experimental" }
 
 [dependencies]
 molten_brand = { version = "0.1", optional = true }
-molten_sigil = "0.1"
+glyphs = "0.1"
 unicode-width = "0.1"
 
 [features]

@@ -1,6 +1,6 @@
 //! Border definitions and styles.
 
-use molten_sigil::Color;
+use glyphs::Color;
 
 /// Border style preset.
 #[derive(Debug, Clone, Copy, PartialEq, Eq, Default)]
